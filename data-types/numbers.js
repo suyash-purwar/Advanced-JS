@@ -84,3 +84,4 @@ console.log(parseFloat(ip)); // 1022.123 -> Stops at the second '.' as floating 
 
 // There are situations when parseInt/parseFloat will return NaN. It happens when no digits could be read:
 console.log(parseInt("S18")); // NaN
+console.log(parseInt("carousel-id-1")); // NaN
